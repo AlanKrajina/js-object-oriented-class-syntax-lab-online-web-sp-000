@@ -20,3 +20,10 @@ class BoardMember {
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
   }
 }
+
+
+class Ceo extends BoardMember {
+  hireEmployee(){
+  return "Welcome aboard!"
+  }
+}
