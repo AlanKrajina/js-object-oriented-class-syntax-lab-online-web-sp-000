@@ -4,7 +4,7 @@ class BoardMember {
     this.homeState = homeState;
     this.training = training;
   }
- 
+
   sayHello() {
     console.log(`Hello, my name is ${this.name}`);
   }
